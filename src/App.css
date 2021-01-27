@@ -1,38 +1,267 @@
 .App {
+  height: 100vh;
+  font-style: GalanoGrotesque-Medium;
+}
+#header{
+  font-size:16px;
+  height: 46px;
+  width:100vmax;
+  color: white;
+  background-color: #146eb4;
+}
+.store{
+  margin-left:6%;
+}
+.logo{
+  margin-left: 10px;
+}
+.downloadApp{
+  margin-left: 55%;
+}
+#info{
+  width:100vmax;
+  height: 84px;
+  border: solid 1px #e6e6e6;
+}
+.walmart{
+  margin-left:6%;
+}
+.bag{
+  margin-left: 45%;
+}
+.orders{
+  margin-left: 5%;
+}
+#market{
+  margin-left: 1%;
+}
+
+.center{
+  display: flex;
+  align-items:center ;
+}
+.main{
+  width:100vmax;
+  display: flex;
+  align-items: flex-start;
+}
+.products{
+  width:50%;
+  border-right: solid 1px #e6e6e6;
+  border-left: solid 1px #e6e6e6;
+}
+.options{
+  width:25%;
+}
+.cart{
+  width:25%;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#optionButton{
+  width:100%;
+  text-align: left;
+  border:none;
+  background-color: white;
+  outline: none;
+  color: black;
+  margin-top:10px ;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#optionButton:focus{
+  color: #146eb4;
+  border-right: 3px solid #146eb4;
+  background: linear-gradient(to right ,white,#ecf4f9);
+  outline: 0 !important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.optionDiv{
+  margin-left:10%;
+}
+.viewAll{
+  color:#146eb4;
+  margin-left:12%;
+  margin-top:10px; 
+}
+.footer{
+  width:100vmax;
+  background-color: #1a181e;
+  color:white;
+}
+.footerTop, .footerBottom{
+  display:flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#line{
+  border-bottom: solid 1px #e6e6e6;
+  opacity: 10%;
+}
+#buttons{
+  border:none;
+  background-color: white;
+  outline: none;
+  color: #146eb4;
+}
+#buttons:focus {
+  outline: 0 !important;
+}
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  border:solid 1px#146eb4;
+  color: #146eb4;
+  width: 81px;
+  height: 28px;
+  border-radius: 4px;
+  float:right;
+}
+.divMargin{
+  margin: 10px;
+}
+.highlightQuantity{
+  border-radius: 4px;
+  min-width: 30px;
+  min-height: 24px;
+  background: #146eb4;
+  color:white;
+}
+.addWeight{
+  font-weight: bold;
+}
+.weightAndMargin{
+  margin: 10px;
+  font-weight: bold;
+}
+.search{
+  height:40px;
+  width: 80%;
+  display: flex;
+  margin-left: 10%;
+  margin-top: -4%;
+  border-radius: 6px;
+  border:none;
+  background-color: #f2f2f2;
+}
+.search:focus{
+  outline: none;
+}
+.navbar{
+  height: 100vh;
+  min-width: 20%;
+  background:#1e2640;
+  color:white;
+}
+.navHeader{
+height:80%;
+}
+#navButton{
+  min-height: 48px;
+  width:140%;
+  color:white;
+  background:none;
+  border:none;
+  display: flex;
+  margin-left:43%;
+  flex-direction: row;
+  justify-content:flex-start;
+  align-items: center;
+}
+#navButton:focus{
+  background: #343c53;
+  outline: 0 !important;
+}
+#buttonsDiv{
+  color:white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content:space-evenly;
+}
+.notification{ 
+  margin-left: 40%;
+  background:#ea6f57;
+  border-radius: 14px;
+  min-width: 30px;
+  min-height: 24px;
+}
+#navFooter{
+  background:#343c53;
+  width:100%;
+}
+#topHeader{
+  width:80vmax;
+  height: 8vh;
+  border: solid 1px #d9d9d9;
+}
+#app{
+  display:flex;
+  flex-direction: row;
+} 
+.rightDivs{
+  display:flex;
+  flex-direction: column;
+}
+#productDiv{
+  background-color: #f7f7f7; 
+  height: 92vh;
+}
+.flexRow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly ;
+}
+.flexCol{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content:space-between;
 }
-
-.App-link {
-  color: #61dafb;
+.backgroundAndHeight{
+  background:white;
+  height: 40%;
+  border-radius: 8px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.flexRow div{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.font{
+  color:#4c4c4c;
+  font-weight:500;
+}
+.view{
+   color: #808080;
+   margin-left: 70%;
+}
+.homeButtons button{
+  background-color: #e5e5e5;
+  border:none;
+  border-radius: 40px;
+  margin-left: 3%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.homeButtons button:focus{
+  outline: none;
+  background-color:#146eb4;
+}
+.product{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.productDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start ;
+}
+.alignButton{ 
+  margin-left: 55%; 
+  margin-bottom: 10px; 
+  background:none;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+.alignButton:focus{
+outline: none;
+background:#b3aeae;
 }
